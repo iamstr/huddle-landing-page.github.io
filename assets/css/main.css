@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto&display=swap");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+@import url("https://www.fontify.me/wf/75c6417736c5513b783ade7b21f424d7");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Poppins:400,700&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.grid {
+  display: grid;
+  column-gap: 5em;
+  grid-template-columns: auto auto auto;
+}
+
+.btn-black {
+  font-family: "Roboto", serif;
+  background: #272727 !important;
+  color: #ffffff !important;
+}
+
+.btn-absolute {
+  position: absolute;
+}
+
+.item-button {
+  background-color: #fff;
+  border-radius: 3em;
+  width: 15.5em;
+  padding: 1em 2em;
+  border: none;
+  outline: none;
+  box-shadow: 0.1em 0.1em 0.2em rgba(255, 255, 255, 0.5);
+}
+
+body,
+html {
+  overflow-x: hidden;
+}
+
+body {
+  background: url("../../../assets/images/bg-desktop.svg");
+  color: #fff;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #674baf;
+  color: #fff;
+  font-family: "Open sans", sans-serif;
+  font-size: 16px;
+}
+body .header-logo {
+  padding: 2em;
+}
+body .main .grid {
+  padding: 2em;
+}
+body .main .grid-item:nth-child(2) {
+  margin-top: 3em;
+}
+body .main .grid-item:nth-child(1) {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+body .main .grid-item .item-header {
+  font-size: 2.5em;
+  margin-bottom: 1em;
+  width: 70%;
+}
+body .main .grid-item .item-para {
+  margin-bottom: 1em;
+  font-size: 1.2em;
+}
+body .footer .social {
+  display: flex;
+  justify-content: flex-end;
+  padding: 0;
+  list-style-type: none;
+}
+body .footer .social-icon {
+  border-radius: 50%;
+  border: 2px solid #fff;
+  color: #fff;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 20px;
+  height: 50px;
+  width: 50px;
+  text-decoration: none;
+}
+body .footer .social p.attribution {
+  color: #f5d6ff;
+}
+body .footer .social p.attribution > a {
+  color: #b3c2fe;
+}
+
+/*# sourceMappingURL=main.css.map */
