@@ -35,19 +35,23 @@ body {
                 &:nth-child(2) {
 
                     margin-top: 3em;
+                    padding: 0 3em;
                 }
 
-                &:nth-child(1) {
-                    grid-column-start: 1;
-                    grid-column-end: 3;
+
+
+
+
+                item-img {
+                    min-width: 300px;
+                    width: 80%;
                 }
 
-                &-img {}
 
                 .item-header {
                     font-size: 2.5em;
                     margin-bottom: 1em;
-                    width: 70%;
+
                 }
 
                 .item-para {
@@ -97,3 +101,5 @@ body {
 
 
 }
+
+@media screen and (max-width: 768px) {}
